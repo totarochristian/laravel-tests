@@ -12,7 +12,7 @@
         <!-- Import the custom scss -->
         @vite('resources/js/app.js')
     </head>
-    <body class="antialiased">
+    <body class="d-flex justify-contetn-center align-items-center flex-column mt-4 pt-4">
         <h1>{{ $title }} {{ $username }}</h1>
         <h2>{{ $description }}</h2>
         @if (count($featuresList)>0)
